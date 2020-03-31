@@ -2,7 +2,7 @@ def turn_count(board)
   count = 0
   board.each do | current_player |
     puts "#{current_player}"
-    if current_player.strip() == "X" && "O"
+    if current_player.strip() == "X" || current_player.strip() == "O"
       count += 1
     end
   end
