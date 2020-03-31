@@ -13,6 +13,6 @@ end
 def current_player()
   if count.even? puts "X"
   else
-    puts "O"
+    "O"
   end
 end
